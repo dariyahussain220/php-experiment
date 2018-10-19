@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Html-Design</title>
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <link rel="stylesheet" type="text/css" href="styles/style2.css">
+</head>
+<body style="background-color:grey">
+<div class="container">
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <a class="navbar-brand" href="#">HTML DESIGN</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarColor01">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Index<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="hometown.html">HomeTown</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="quiz.html">Quiz</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="enhancement.html">Enhancement</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="text" placeholder="Search">
+      <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+<div class="jumbotron">
+  <h1 class="display-3">Hello, Rayagada fill the Relevant data!</h1>
+  <div class="col-md-12">
+  <form action = "saverecords.php" method="POST" >
+  <fieldset>
+    <legend>Legend</legend>
+    <div class="col-md-12">
+    <div class="form-group">
+      <label>Student Number</label>
+      <input type="Number" class="form-control"   placeholder="Enter ID" name ="studentNumber" required/>
+     
+    </div>
+	</div>
+	<div class="row">
+	<div class="col-md-6">
+    <div class="form-group">
+      <label>FirstNmae</label>
+      <input type="text" class="form-control"  placeholder="FirstName" name ="firstName" required/>
+    </div>
+	</div>
+	<div class="col-md-6">
+	<div class="form-group">
+      <label>LastName</label>
+      <input type="text" class="form-control"  placeholder="LastName" name ="lastName" />
+    </div>
+	</div>
+    <div class="form-group">
+      <label for="exampleSelect1">No.of Attempts</label>
+      <select class="form-control" name="attempts">
+          <option>1</option>
+		  <option>2</option>
+		  <option>3</option>
+      </select>
+    </div>
+    </fieldset>
+	<center>
+    <button type="submit" class="btn btn-primary">Submit</button>
+	</center>
+  </fieldset>
+</form>
+</div>
+</div>
+<br><br>
+
+<div class="alert alert-dismissible alert-warning">
+  <button type="button" class="close" data-dismiss="alert">&times;</button>
+  <h4 class="alert-heading">Contact Here</h4>
+  <p class="mb-0">Best check yo self, <a href="https://gmail.com" class="alert-link"><b> Student Email Address </b></a> too good. Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus magna.</p>
+</div>
+	
+</div>
+</body>
+</html>
